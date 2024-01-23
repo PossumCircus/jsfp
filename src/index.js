@@ -8,8 +8,8 @@ import MakeBoardName from './pages/MakeBoardName';
 import MyVisionBoard from './pages/MyVisionBoard';
 import MyVisionBoardGrid from './pages/MyVisionBoardGrid';
 import Home from './pages/Home';
-import SignIn from './pages/SignIn';
-import SignUp from './pages/SignUp';
+// import SignIn from './pages/SignIn';
+// import SignUp from './pages/SignUp';
 import Accounts from './pages/Accounts';
 import VisionBoardGrid from './pages/VisionBoardGrid';
 
@@ -22,8 +22,8 @@ const router = createBrowserRouter([
       { path: '/getsampleboard', element: <GetSampleBoard /> },
       { path: '/makeboardName', element: <MakeBoardName /> },
       { path: '/myvisionboard/list', element: <MyVisionBoard /> },
-      { path: '/login', element: <SignIn /> },
-      { path: '/register', element: <SignUp /> },
+      // { path: '/login', element: <SignIn /> },
+      // { path: '/register', element: <SignUp /> },
       { path: '/accountedit', element: <Accounts /> },
       { path: '/myvisionboardgrid/:id', element: <MyVisionBoardGrid /> },
       { path: '/visionboardgrid', element: <VisionBoardGrid /> },
