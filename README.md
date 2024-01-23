@@ -10,3 +10,9 @@
 -class : 파스칼 ex) CuteCat()
 
 -id(css) : 카멜 케이스 ex) cuteCat
+
+기초작업
+-Home ✅
+-VisionBoardMaking
+-MyVisionBoard
+-VisionBoardGrid
