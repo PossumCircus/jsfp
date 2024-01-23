@@ -57,13 +57,12 @@
 
 // export default HomeCompo;
 
-import homelogo_FIN from './homelogo_FIN.png';
 import styles from './Home.module.scss';
 
 function HomeCompo() {
   return (
     <div className={styles.container}>
-      <img src={homelogo_FIN}></img>
+      홈페이지 컨테이너 영역
     </div>
   );
 }

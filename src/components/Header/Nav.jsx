@@ -6,12 +6,12 @@ import { IoImages } from 'react-icons/io5';
 import { FaSearch } from 'react-icons/fa';
 import styles from './Nav.module.scss';
 
-function Nav({ isOpen, isLoggedIn }) {
-  if (!isOpen) {
+function Nav({ isNavOpen, isLoggedIn }) {
+  if (!isNavOpen) {
     return null;
   }
   return (
-    <nav className={isOpen ? `${styles.nav} ${styles.navOpen}` : styles.nav}>
+    <nav className={isNavOpen ? `${styles.nav} ${styles.navOpen}` : styles.nav}>
       <ul className={styles.navListWrapper}>
         <li>
           <Link to="/" className={styles.navLink}>

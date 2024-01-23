@@ -6,8 +6,8 @@ import {
   useNavigate,
   useLocation,
 } from 'react-router-dom';
-import SignIn from './pages/SignIn';
-import SignUp from './pages/SignUp';
+// import SignIn from './pages/SignIn';
+// import SignUp from './pages/SignUp';
 import Accounts from './pages/Accounts';
 import Home from './pages/Home';
 import GetSampleBoard from './pages/GetSampleBoard';
@@ -69,12 +69,12 @@ function App() {
     <Layout>
       <Routes>
         <Route path="/" element={<Home />} />
-        {!isLogin && (
+        {/* {!isLogin && (
           <>
             <Route path="/login" element={<SignIn />} />
             <Route path="/register" element={<SignUp />} />
           </>
-        )}
+        )} */}
         {/* <Route path="/accountedit" element={<Accounts />} /> */}
         <Route path="/accountedit" element={<Accounts />} />
         <Route path="/getsampleboard" element={<GetSampleBoard />} />
